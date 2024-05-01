@@ -1,1 +1,56 @@
+body{
+    background-color: rgb(29, 29, 29);
+    color: white;
+    font-family: Helvetica;
+}
+.main{
+    margin-left: 2vw;   
+}
+.header{
+    display:inline-flex;
+    margin-bottom: -3vw;
+}
+.socialmediainf{
+    display:inline-flex;
+    margin-left: 10px;
+    margin-top: 50px;
+}
+.pclass{
+    text-align: center;
+    
+    margin-left: 40px; 
+    font-weight: bold;
+}
 
+.imagen{
+    border-radius: 100px;
+    width: 100px;
+    padding: 6px;
+    border: solid 2px gray;
+}
+.biography{
+
+}
+.etiqueta{
+    background-color: rgb(59, 59, 59);
+    border-radius: 50px;
+    width: fit-content;
+    margin-left: 0;
+    font-weight: none;
+    padding: 3px;
+}
+.new{
+    color: blue;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.education-color{
+    color: skyblue;
+}
+.link{
+    font-weight: bold;
+}
+p{
+    margin-top: -10px;
+}
