@@ -29,7 +29,7 @@ body{
     border: solid 2px gray;
 }
 .biography{
-
+margin-top: -10px;
 }
 .etiqueta{
     background-color: rgb(59, 59, 59);
@@ -53,4 +53,64 @@ body{
 }
 p{
     margin-top: -10px;
+}
+.members{
+    color: gray;
+    scale: .9;
+}
+.followedimg{
+    border-radius: 100px;
+    width: 30px;
+    float: left;
+}
+.followedtext{
+    margin-top: 22px;
+    margin-left: 37px;
+}
+.buttonssection{
+    width: 95%;
+    display: inline-flex;
+    gap: 5px;
+}
+.button{
+    border-radius: 10px;
+    height: 27px;
+    border: transparent;
+}
+.followbutton{
+width: 45%;
+background-color: rgb(66, 149, 244);
+color: white;
+}
+.messagebutton{
+    width: 45%;
+    background-color: rgb(38, 38, 38);
+    color: white;
+}
+.suggested{
+    display: inline-flex;
+    width: 10%;
+    height: 27px;
+    border-radius: 10px;
+    background-color: rgb(38, 38, 38);
+    color: white;
+    border: transparent;
+    padding-top: 4px;
+}
+.highlighted{
+    border-radius: 100px;
+    width: 50px;
+    padding: 6px;
+    border: solid 2px gray;
+    margin-left: 20px;
+}
+.imghighlighted{
+margin-left: -20px;
+display: inline-flex;
+text-align: center;
+
+}
+.phighlighted{
+    text-align: center;
+    color: green;
 }
