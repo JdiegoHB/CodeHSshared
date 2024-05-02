@@ -78,9 +78,16 @@ p{
     border: transparent;
 }
 .followbutton{
+    transition: .5 s;
 width: 45%;
 background-color: rgb(66, 149, 244);
 color: white;
+}
+.unfollowbutton{
+    transition: .5 s;
+    width: 45%;
+    background-color: rgb(38, 38, 38);
+    color: white;
 }
 .messagebutton{
     width: 45%;
@@ -112,5 +119,5 @@ text-align: center;
 }
 .phighlighted{
     text-align: center;
-    color: green;
+    text-decoration: underline overline;
 }
