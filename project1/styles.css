@@ -17,7 +17,6 @@ body{
 }
 .pclass{
     text-align: center;
-    
     margin-left: 40px; 
     font-weight: bold;
 }
@@ -114,10 +113,59 @@ color: white;
 .imghighlighted{
 margin-left: -20px;
 display: inline-flex;
-text-align: center;
 
 }
-.phighlighted{
-    text-align: center;
-    text-decoration: underline overline;
+.text{
+    margin-left: 20px;
 }
+.phighlighted{
+    margin-left: 30px;
+}
+.diviconos{
+    transition: .5s;
+    width: 32%;
+    margin-left: -5px;
+    display: inline-flex;
+    border-bottom: 2px solid white;
+    justify-content: center;
+}
+.diviconos2{
+    width: 32%;
+    transition: .5s;
+    display: inline-flex;
+    border-bottom: 2px solid rgb(29, 29, 29);
+    justify-content: center;
+}
+.diviconos2:hover > .iconitos2{
+   scale: 1.2;
+   transition: .5s;
+   opacity: 1;
+}
+
+.iconitos{
+
+    transition: .5s;
+    width: 10%;
+    margin-bottom: 10px;
+}
+.iconitos2{
+    transition: .5s;
+    width: 10%;
+    margin-bottom: 10px;
+    opacity: .5;
+}
+.grid{
+    text-align: center;
+    grid-column: 1 / 1 / 1;
+    padding: 20px;
+    margin-left: -10px;
+    align-items: center;
+}
+.container{
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+}
+
+
+
+
