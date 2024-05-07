@@ -167,5 +167,22 @@ display: inline-flex;
 }
 
 
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); /* Ajusta el ancho de las columnas según sea necesario */
+    grid-gap: 10px; /* Espacio entre las imágenes */
+  }
+  
+  .grid-item {
+    width: 100%;
+    overflow: hidden; /* Para evitar que las imágenes se desborden */
+  }
+  
+  .grid-item img {
+    width: 100%;
+    height: auto; /* Para mantener la proporción de aspecto */
+  }
+
+
 
 
