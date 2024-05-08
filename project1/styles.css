@@ -1,5 +1,6 @@
+/* "commit verification"; */
 body {
-    background: #1d1d1d;
+    background: #000000;
     color: white;
     font-family: Helvetica;
 }
@@ -130,8 +131,14 @@ p {
     display: inline-flex;
 }
 
-.text {
+.text1 {
+    margin-left: 35px;
+}
+.text2 {
     margin-left: 20px;
+}
+.text3 {
+    margin-left: 25px;
 }
 
 .phighlighted {
@@ -150,7 +157,7 @@ p {
 }
 
 .diviconos2 {
-    border-bottom: 2px solid #1d1d1d;
+    border-bottom: 2px solid #000000;
 }
 
 .diviconos2:hover > .iconitos2 {
@@ -206,7 +213,7 @@ p {
     display: inline-flex;
     justify-content: center;
     margin-left: -4px;
-    border-bottom: 2px solid #1d1d1d;
+    border-bottom: 2px solid #000000;
 }
 .divreelshighlighted{
     display: grid;
@@ -227,7 +234,7 @@ p {
     width: 31.5%;
     display: inline-flex;
     justify-content: center;
-    border-bottom: 2px solid #1d1d1d;
+    border-bottom: 2px solid #000000;
 }
 .divtaggedhighlighted{
     display: grid;
