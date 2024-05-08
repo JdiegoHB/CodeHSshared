@@ -1,3 +1,4 @@
+var verification = "commit verification";
 var namebutton = document.getElementById('following');
 
 
@@ -14,3 +15,9 @@ function returnHandler() {
 }
 
 namebutton.onclick = handleUser;
+
+function isnotpossible() {
+    alert('It wasn´t possible')
+}
+
+
